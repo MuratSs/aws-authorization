@@ -1,8 +1,5 @@
 
 # aws-auth
-[![Build Status](https://travis-ci.org/keikoproj/aws-auth.svg?branch=master)](https://travis-ci.org/keikoproj/aws-auth)
-[![codecov](https://codecov.io/gh/keikoproj/aws-auth/branch/master/graph/badge.svg)](https://codecov.io/gh/keikoproj/aws-auth)
-
 
 > Makes the management of the aws-auth config map for EKS Kubernetes clusters easier
 
@@ -17,7 +14,7 @@
 ## Install
 
 ```text
-$ go get github.com/keikoproj/aws-auth
+$ go get github.com/MuratSs/aws-authorization
 $
 ```
 
@@ -125,7 +122,7 @@ Retries are configurable using the following flags
 package main
 
 import (
-    awsauth "github.com/keikoproj/aws-auth/pkg/mapper"
+    awsauth "github.com/MuratSs/aws-authorization/pkg/mapper"
 )
 
 func someFunc(client kubernetes.Interface) error {
